@@ -4,11 +4,12 @@ object SampleData {
     // Sample conversation data
     val conversationSample = listOf(
         Message(
-            "Colleague",
-            "Test...Test...Test..."
+            "Sofia",
+            "Test...Test...Test...",
+            R.drawable.img1
         ),
         Message(
-            "Colleague",
+            "Oscar",
             "List of Android versions:\n" +
                     "Android KitKat (API 19)\n" +
                     "Android Lollipop (API 21)\n" +
@@ -18,55 +19,68 @@ object SampleData {
                     "Android Pie (API 28)\n" +
                     "Android 10 (API 29)\n" +
                     "Android 11 (API 30)\n" +
-                    "Android 12 (API 31)\n"
+                    "Android 12 (API 31)\n",
+            R.drawable.img2
+
         ),
         Message(
-            "Colleague",
+            "Marcos",
             "I think Kotlin is my favorite programming language.\n" +
-                    "It's so much fun!"
+                    "It's so much fun!",
+            R.drawable.img3
         ),
         Message(
-            "Colleague",
-            "Searching for alternatives to XML layouts..."
+            "Giovanni",
+            "Searching for alternatives to XML layouts...",
+            R.drawable.img4
         ),
         Message(
-            "Colleague",
+            "Chiara",
             "Hey, take a look at Jetpack Compose, it's great!\n" +
                     "It's the Android's modern toolkit for building native UI." +
                     "It simplifies and accelerates UI development on Android." +
-                    "Less code, powerful tools, and intuitive Kotlin APIs :)"
+                    "Less code, powerful tools, and intuitive Kotlin APIs :)",
+            R.drawable.img5
         ),
         Message(
-            "Colleague",
-            "It's available from API 21+ :)"
+            "Teresa",
+            "It's available from API 21+ :)",
+            R.drawable.img6
         ),
         Message(
-            "Colleague",
-            "Writing Kotlin for UI seems so natural, Compose where have you been all my life?"
+            "Yennifer",
+            "Writing Kotlin for UI seems so natural, Compose where have you been all my life?",
+            R.drawable.img7
         ),
         Message(
-            "Colleague",
-            "Android Studio next version's name is Arctic Fox"
+            "Diana",
+            "Android Studio next version's name is Arctic Fox",
+            R.drawable.img8
         ),
         Message(
-            "Colleague",
-            "Android Studio Arctic Fox tooling for Compose is top notch ^_^"
+            "Andrés",
+            "Android Studio Arctic Fox tooling for Compose is top notch ^_^",
+            R.drawable.img9
         ),
         Message(
-            "Colleague",
-            "I didn't know you can now run the emulator directly from Android Studio"
+            "Michael",
+            "I didn't know you can now run the emulator directly from Android Studio",
+            R.drawable.img10
         ),
         Message(
-            "Colleague",
-            "Compose Previews are great to check quickly how a composable layout looks like"
+            "Maria",
+            "Compose Previews are great to check quickly how a composable layout looks like",
+            R.drawable.profile_picture
         ),
         Message(
-            "Colleague",
-            "Previews are also interactive after enabling the experimental setting"
+            "Pedro",
+            "Previews are also interactive after enabling the experimental setting",
+            R.drawable.img1
         ),
         Message(
-            "Colleague",
-            "Have you tried writing build.gradle with KTS?"
+            "Marcus",
+            "Have you tried writing build.gradle with KTS?",
+            R.drawable.img2
         ),
     )
 }
